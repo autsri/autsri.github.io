@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="AutomatedSRI">
 
-    <title>AutomatedSRI</title>
+    <title>AutomatedSRI - SRI &amp; ESG specialist</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -42,12 +42,18 @@
 
 
         .Card {
-            width: 440px;
+            max-width: 440px;
             margin-left: auto;
             margin-right: auto;
             border: solid 1px #1c97ff9c;
             padding: 20px 100px 36px 100px;
         }
+
+        @media only screen and (max-width: 440px) {
+  .Card {
+    padding: 4px;
+  }
+}
 
             .Card > svg {
                 width: 100%;
